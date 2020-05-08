@@ -2,6 +2,10 @@ Found some TI 83 calculators, still going strong.
 Had issues when using TILP and TI CONNECT to backup/restore.
 Made some changes, now all transfer functions are working 100%.
 Fastest transfer is with arduino PRO MICRO.
+Changes are:
+Not entering getbyte until a low line, otherwise you always enter getbyte and get timeout even if nothing is received.
+Added a last step in getbyte waiting for high lines, so we wait for the complete byte to be received, before checking for next byte.
+Thus not needing the 6 us delay before starting receive.
 
 # serial2ti83 / ArduGrayLink
 A program for Arduinos that makes it possible to connect a Texas Instruments calculator to a computer
