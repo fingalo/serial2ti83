@@ -9,7 +9,7 @@
  * 
  * MIT-licensed.
  * 
- * SETUP FORUNO and NANO
+ * SETUP FOR UNO and NANO
  */
 
 const int TIP = A0; //arduino port where the tip of the stereo jack plug is connected
