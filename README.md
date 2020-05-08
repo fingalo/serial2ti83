@@ -1,3 +1,8 @@
+Found some TI 83 calculators, still going strong.
+Had issues when using TILP and TI CONNECT to backup/restore.
+Made some changes, now all transfer functions are working 100%.
+Fastest transfer is with arduino PRO MICRO.
+
 # serial2ti83 / ArduGrayLink
 A program for Arduinos that makes it possible to connect a Texas Instruments calculator to a computer
 
